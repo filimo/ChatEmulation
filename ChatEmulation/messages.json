@@ -1,0 +1,23 @@
+[
+   {
+      "line":"If necessary for the implementation purposes the format might be extended with any additional values."
+   },
+   {
+      "line":"Proceed with the next line processing 0.5 second after the current Chat Line text is completely read"
+   },
+   {
+      "line":"Beyond Expression LLC guarantees the following task implementation source code can be used for the interview purposes only. The test task definition and the supporting materials provided in this document are Intellectual Property of Beyond Expression LLC."
+   },
+   {
+      "line":"There is no strong requirement for the implementation to be pixel perfect"
+   },
+   {
+      "line":"move up from below the bottom screen edge till completely appear (all previous Bubbles must move up synchronously with the appearing Bubble)"
+   },
+   {
+      "line":"0.5 seconds after a Bubble appears, the voice must start to read the Chat Line (with TTS engine)"
+   },
+   {
+      "line":"The Application code must include the Chat Scenario JSON file as a resource, corresponding the following format"
+   }
+]

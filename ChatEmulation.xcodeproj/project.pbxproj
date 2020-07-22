@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,26 +14,9 @@
 		F089EE3D24C8013300D20873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F089EE3C24C8013300D20873 /* Assets.xcassets */; };
 		F089EE4024C8013300D20873 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F089EE3F24C8013300D20873 /* Preview Assets.xcassets */; };
 		F089EE4324C8013300D20873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F089EE4124C8013300D20873 /* LaunchScreen.storyboard */; };
-		F089EE4E24C8013300D20873 /* ChatEmulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089EE4D24C8013300D20873 /* ChatEmulationTests.swift */; };
-		F089EE5924C8013400D20873 /* ChatEmulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089EE5824C8013400D20873 /* ChatEmulationUITests.swift */; };
+		F089EE6824C801BD00D20873 /* ScrollViewProxy in Frameworks */ = {isa = PBXBuildFile; productRef = F089EE6724C801BD00D20873 /* ScrollViewProxy */; };
+		F0FFE3F424C8573100B51BED /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = F0FFE3F324C8573100B51BED /* messages.json */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F089EE4A24C8013300D20873 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F089EE2824C8013000D20873 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F089EE2F24C8013000D20873;
-			remoteInfo = ChatEmulation;
-		};
-		F089EE5524C8013300D20873 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F089EE2824C8013000D20873 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F089EE2F24C8013000D20873;
-			remoteInfo = ChatEmulation;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F089EE3024C8013000D20873 /* ChatEmulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatEmulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,12 +28,7 @@
 		F089EE3F24C8013300D20873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F089EE4224C8013300D20873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F089EE4424C8013300D20873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F089EE4924C8013300D20873 /* ChatEmulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatEmulationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F089EE4D24C8013300D20873 /* ChatEmulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEmulationTests.swift; sourceTree = "<group>"; };
-		F089EE4F24C8013300D20873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F089EE5424C8013300D20873 /* ChatEmulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatEmulationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F089EE5824C8013400D20873 /* ChatEmulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatEmulationUITests.swift; sourceTree = "<group>"; };
-		F089EE5A24C8013400D20873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0FFE3F324C8573100B51BED /* messages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = messages.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,20 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F089EE4624C8013300D20873 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F089EE5124C8013300D20873 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F089EE6824C801BD00D20873 /* ScrollViewProxy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				F089EE3224C8013000D20873 /* ChatEmulation */,
-				F089EE4C24C8013300D20873 /* ChatEmulationTests */,
-				F089EE5724C8013300D20873 /* ChatEmulationUITests */,
 				F089EE3124C8013000D20873 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				F089EE3024C8013000D20873 /* ChatEmulation.app */,
-				F089EE4924C8013300D20873 /* ChatEmulationTests.xctest */,
-				F089EE5424C8013300D20873 /* ChatEmulationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +62,7 @@
 		F089EE3224C8013000D20873 /* ChatEmulation */ = {
 			isa = PBXGroup;
 			children = (
+				F0FFE3F324C8573100B51BED /* messages.json */,
 				F089EE3324C8013000D20873 /* AppDelegate.swift */,
 				F089EE3524C8013000D20873 /* SceneDelegate.swift */,
 				F089EE3A24C8013000D20873 /* ContentView.swift */,
@@ -121,24 +83,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F089EE4C24C8013300D20873 /* ChatEmulationTests */ = {
-			isa = PBXGroup;
-			children = (
-				F089EE4D24C8013300D20873 /* ChatEmulationTests.swift */,
-				F089EE4F24C8013300D20873 /* Info.plist */,
-			);
-			path = ChatEmulationTests;
-			sourceTree = "<group>";
-		};
-		F089EE5724C8013300D20873 /* ChatEmulationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F089EE5824C8013400D20873 /* ChatEmulationUITests.swift */,
-				F089EE5A24C8013400D20873 /* Info.plist */,
-			);
-			path = ChatEmulationUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,45 +99,12 @@
 			dependencies = (
 			);
 			name = ChatEmulation;
+			packageProductDependencies = (
+				F089EE6724C801BD00D20873 /* ScrollViewProxy */,
+			);
 			productName = ChatEmulation;
 			productReference = F089EE3024C8013000D20873 /* ChatEmulation.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F089EE4824C8013300D20873 /* ChatEmulationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F089EE6024C8013400D20873 /* Build configuration list for PBXNativeTarget "ChatEmulationTests" */;
-			buildPhases = (
-				F089EE4524C8013300D20873 /* Sources */,
-				F089EE4624C8013300D20873 /* Frameworks */,
-				F089EE4724C8013300D20873 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F089EE4B24C8013300D20873 /* PBXTargetDependency */,
-			);
-			name = ChatEmulationTests;
-			productName = ChatEmulationTests;
-			productReference = F089EE4924C8013300D20873 /* ChatEmulationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F089EE5324C8013300D20873 /* ChatEmulationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F089EE6324C8013400D20873 /* Build configuration list for PBXNativeTarget "ChatEmulationUITests" */;
-			buildPhases = (
-				F089EE5024C8013300D20873 /* Sources */,
-				F089EE5124C8013300D20873 /* Frameworks */,
-				F089EE5224C8013300D20873 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F089EE5624C8013300D20873 /* PBXTargetDependency */,
-			);
-			name = ChatEmulationUITests;
-			productName = ChatEmulationUITests;
-			productReference = F089EE5424C8013300D20873 /* ChatEmulationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,14 +119,6 @@
 					F089EE2F24C8013000D20873 = {
 						CreatedOnToolsVersion = 11.6;
 					};
-					F089EE4824C8013300D20873 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = F089EE2F24C8013000D20873;
-					};
-					F089EE5324C8013300D20873 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = F089EE2F24C8013000D20873;
-					};
 				};
 			};
 			buildConfigurationList = F089EE2B24C8013000D20873 /* Build configuration list for PBXProject "ChatEmulation" */;
@@ -227,13 +130,14 @@
 				Base,
 			);
 			mainGroup = F089EE2724C8013000D20873;
+			packageReferences = (
+				F089EE6624C801BD00D20873 /* XCRemoteSwiftPackageReference "ScrollViewProxy" */,
+			);
 			productRefGroup = F089EE3124C8013000D20873 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F089EE2F24C8013000D20873 /* ChatEmulation */,
-				F089EE4824C8013300D20873 /* ChatEmulationTests */,
-				F089EE5324C8013300D20873 /* ChatEmulationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,22 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F089EE4324C8013300D20873 /* LaunchScreen.storyboard in Resources */,
+				F0FFE3F424C8573100B51BED /* messages.json in Resources */,
 				F089EE4024C8013300D20873 /* Preview Assets.xcassets in Resources */,
 				F089EE3D24C8013300D20873 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F089EE4724C8013300D20873 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F089EE5224C8013300D20873 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,36 +168,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F089EE4524C8013300D20873 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F089EE4E24C8013300D20873 /* ChatEmulationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F089EE5024C8013300D20873 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F089EE5924C8013400D20873 /* ChatEmulationUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F089EE4B24C8013300D20873 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F089EE2F24C8013000D20873 /* ChatEmulation */;
-			targetProxy = F089EE4A24C8013300D20873 /* PBXContainerItemProxy */;
-		};
-		F089EE5624C8013300D20873 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F089EE2F24C8013000D20873 /* ChatEmulation */;
-			targetProxy = F089EE5524C8013300D20873 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F089EE4124C8013300D20873 /* LaunchScreen.storyboard */ = {
@@ -440,13 +302,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatEmulation/Preview Content\"";
+				DEVELOPMENT_TEAM = B6QRXW5YF2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ChatEmulation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Beyond-Expression-LLC.ChatEmulation";
+				PRODUCT_BUNDLE_IDENTIFIER = by.filimo.ChatEmulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,96 +322,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatEmulation/Preview Content\"";
+				DEVELOPMENT_TEAM = B6QRXW5YF2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ChatEmulation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Beyond-Expression-LLC.ChatEmulation";
+				PRODUCT_BUNDLE_IDENTIFIER = by.filimo.ChatEmulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F089EE6124C8013400D20873 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ChatEmulationTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Beyond-Expression-LLC.ChatEmulationTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatEmulation.app/ChatEmulation";
-			};
-			name = Debug;
-		};
-		F089EE6224C8013400D20873 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ChatEmulationTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Beyond-Expression-LLC.ChatEmulationTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatEmulation.app/ChatEmulation";
-			};
-			name = Release;
-		};
-		F089EE6424C8013400D20873 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ChatEmulationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Beyond-Expression-LLC.ChatEmulationUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChatEmulation;
-			};
-			name = Debug;
-		};
-		F089EE6524C8013400D20873 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ChatEmulationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Beyond-Expression-LLC.ChatEmulationUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChatEmulation;
 			};
 			name = Release;
 		};
@@ -573,25 +357,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F089EE6024C8013400D20873 /* Build configuration list for PBXNativeTarget "ChatEmulationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F089EE6124C8013400D20873 /* Debug */,
-				F089EE6224C8013400D20873 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F089EE6324C8013400D20873 /* Build configuration list for PBXNativeTarget "ChatEmulationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F089EE6424C8013400D20873 /* Debug */,
-				F089EE6524C8013400D20873 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F089EE6624C801BD00D20873 /* XCRemoteSwiftPackageReference "ScrollViewProxy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Amzd/ScrollViewProxy.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F089EE6724C801BD00D20873 /* ScrollViewProxy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F089EE6624C801BD00D20873 /* XCRemoteSwiftPackageReference "ScrollViewProxy" */;
+			productName = ScrollViewProxy;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F089EE3724C8013000D20873 /* ChatEmulation.xcdatamodeld */ = {
